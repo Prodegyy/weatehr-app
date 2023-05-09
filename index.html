@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search"> 
+            <input class="search-input" type="text" placeholder="enter city name.." spellcheck="false">
+            <button class="search-button"> <img class="search-image" src="images/search.png" alt="search.png"></button>
+        </div>
+        <div class="weather">
+            <div class="weather-city"> Berlin </div>
+            <img class="weather-image" src="images/rain.png" alt="rain">
+            <div class="weather-degree"> 1 C </div>
+            <div class="forecast-text"> 12-hour forecast </div>
+        </div>
+        <!-- <div class="weather-details">
+            <div class="weather-detail-numbers">
+                <img class="humidity-image" src="images/humidity.png" alt="humidity">
+                <div class="weather-humidity-number"> 80% </div>
+
+                <img class="windspeed-image" src="images/wind.png" alt="windspeed">
+                <div class="weather-windspeed-number"> 25 km/h </div>
+            </div>
+            <div class="weather-hum-win">
+                <div class="weather-humidity"> Humidity </div>
+                <div class="weather-windspeed"> Wind Speed </div>
+            </div>
+        </div>
+        -->
+        <div class="forecast">
+            <div class="forecast-day" id="day1">
+                <div class="forecast-day1-time">12 Uhr</div>
+                <div class="forecast-day1-image"><img id="forecast-day1-image" class="forecast-image" src="images/clear.png"></div>
+                <div class="forecast-day1-temp">1°C</div>
+            </div>
+            <div class="forecast-day">
+                <div class="forecast-day2-time">15 Uhr</div>
+                <div class="forecast-day2-image"><img id="forecast-day2-image" class="forecast-image" src="images/clear.png"></div>
+                <div class="forecast-day2-temp">2°C</div>
+            </div>
+            <div class="forecast-day">
+                <div class="forecast-day3-time">18 Uhr</div>
+                <div class="forecast-day3-image"><img id="forecast-day3-image" class="forecast-image" src="images/clear.png"></div>
+                <div class="forecast-day3-temp">3°C</div>
+            </div>
+            <div class="forecast-day" id="day4">
+                <div class="forecast-day4-time">21 Uhr</div>
+                <div class="forecast-day4-image"><img id="forecast-day4-image" class="forecast-image" src="images/clear.png"></div>
+                <div class="forecast-day4-temp">4°C</div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
